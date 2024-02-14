@@ -1,0 +1,57 @@
+div {
+  margin-bottom: 20px;
+}
+
+/* Style for the input */
+input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style for the button */
+Button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+Button:hover {
+  background-color: #218838;
+}
+
+
+/* AddTask.css */
+.add-task-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 15px; 
+}
+
+
+ .add-task-input {
+  flex: 1;
+  color: black;
+  background-color: #218838;
+} 
+
+
+.add-task-input::value {
+  color:black;
+  text-align:center;
+  font-size: 20px;
+  background-color: beige;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 600px;
+}
+
+.add-task-button {
+  margin-top: 0; 
+}
+

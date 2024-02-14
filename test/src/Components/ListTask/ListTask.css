@@ -1,0 +1,22 @@
+
+.text{
+  /* text-align:center; */
+  color:black; 
+  background-color: beige;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  
+}
+.Filters{
+    display: flex;
+    justify-content: space-around;
+}
+
+Button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+    background-color: #3498db;
+    color:#fff;
+}
